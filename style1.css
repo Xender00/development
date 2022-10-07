@@ -1,0 +1,40 @@
+
+body, html {
+ height: 100%;
+   width: 100%;
+   background-image: url('images/bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.container{
+
+      justify-content: center;
+
+}
+
+.buffer{
+   padding: 10px;
+}
+.heading{
+ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+}
+
+.btn-xl1 {
+  padding: 6px 5px;
+  border-radius: 9px;
+  background-color: #0D6EFD ;
+  border-color: #0D6EFD;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-xl1:hover {
+   background-color:#41F500;
+   border-color: #41F500;
+   padding: 0.6rem 0.4rem;
+}
